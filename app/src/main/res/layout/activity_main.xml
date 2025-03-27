@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGenMeal"
+        android:layout_width="196dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="385dp"
+        android:text="Generate Meal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTxtName"
+        android:layout_width="512dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Meal Preps"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="327dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="509dp"
+        android:ems="10"
+        android:hint="Enter time of day..."
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblOutput"
+        android:layout_width="264dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="296dp"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="153dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="121dp"
+        android:text="Reset"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

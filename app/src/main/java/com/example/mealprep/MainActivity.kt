@@ -39,11 +39,11 @@ class MainActivity : AppCompatActivity() {
                 knowlage from the list of functions used in the weather app i made for ice task
                 trying to give them pre determinde if this does not work use basic if functions by just with "vaste uitkomste"  */
                 val mealOptions = mapOf(
-                    "Morning" to listOf("Eggs", "Pancakes", "Oatmeal", "Toast & Jam"),
-                    "Mid-Morning" to listOf("Yogurt", "Fruit Salad", "Granola Bar"),
-                    "Afternoon" to listOf("Sandwich", "Salad", "Pasta", "Rice & Chicken"),
-                    "Mid-Afternoon" to listOf("Nuts", "Smoothie", "Biscuits"),
-                    "Dinner" to listOf("Steak", "Soup", "Pizza", "Grilled Fish")
+                    "Morning" to listOf("Eggs", "Pancakes", "Oatmeal", "Toast & Jam").random(),
+                    "Mid-Morning" to listOf("Yogurt", "Fruit Salad", "Granola Bar").random(),
+                    "Afternoon" to listOf("Sandwich", "Salad", "Pasta", "Rice & Chicken").random(),
+                    "Mid-Afternoon" to listOf("Nuts", "Smoothie", "Biscuits").random(),
+                    "Dinner" to listOf("Steak", "Soup", "Pizza", "Grilled Fish").random()
                 )//https://kotlinlang.org//
 
                 val Meels = mealOptions[userInput]
